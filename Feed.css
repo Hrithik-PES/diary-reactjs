@@ -1,0 +1,19 @@
+.feed {
+  flex: 8;
+  border-right: 1px solid palegoldenrod;
+
+  min-width: fit-content;
+}
+
+.feed__header {
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid palegoldenrod;
+  padding: 15px 20px;
+}
+
+.feed__header > h3 {
+  font-size: 20px;
+  font-weight: 800;
+}

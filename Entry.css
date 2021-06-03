@@ -1,0 +1,74 @@
+.entry {
+  display: flex;
+  align-items: flex-start;
+
+  bottom: 20px;
+  border-bottom: 1px solid palegoldenrod;
+  border-right: 1px solid palegoldenrod;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.08);
+  margin: 25px 0;
+}
+
+textarea,
+input {
+  font-size: 16px;
+}
+.entry__headerText {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.month {
+  display: flex;
+  align-items: center;
+}
+
+.month .name {
+  margin-left: 12px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.entry .content {
+  text-align: left;
+  margin-top: 8px;
+  margin-left: 50px;
+  color: #4f565e;
+}
+
+.entry .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border: 2px solid #0099ff;
+  color: #0099ff;
+  font-weight: 600;
+  border-radius: 3px;
+  outline: none;
+  background: none;
+  padding: 3px 6px;
+  cursor: pointer;
+  user-select: none;
+  margin: 5px;
+}
+button:hover {
+  background-color: rgba(0, 153, 255, 0.15);
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0 50px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #dbe1e7;
+  border-radius: 4px;
+  padding: 10px;
+}
